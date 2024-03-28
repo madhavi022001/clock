@@ -1,0 +1,57 @@
+body{
+    display: flex;
+    flex-direction: column;
+    font-family: sans-serif;
+    align-items: center;
+    position: relative;
+    top: 200px; 
+    background: url(/assets/img.jpg);
+    background-size: cover;
+    
+}
+h2{
+    color:white;
+    letter-spacing: 6px;
+}
+.clock{
+    display: flex;
+}
+.clock div{
+    margin: 10px;
+}
+.clock span{
+   
+    width: 150px;
+    height: 140px;
+    background-color: rosybrown;
+    font-size: 30px;
+    color:black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    opacity: 0.8;
+    box-shadow: 1px 1px;
+    border-radius: 1px;
+
+
+}
+
+.clock .text{
+    text-transform: uppercase;
+    font-size: 20px;
+    height: 30px;
+    background-color:hotpink;
+    color:white;
+    border-radius: 0;
+
+}
+ #ampm{
+    background-color: gainsboro;
+    color: black;
+    position: absolute;
+    font-size: 20px;
+    width: 40px;
+    height: 40px;
+    border-radius: 0;
+    bottom: 60px;
+}
