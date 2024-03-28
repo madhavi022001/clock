@@ -24,5 +24,5 @@ setTimeout(()=>{
 },1000);
 
 }
-// sd
+
 updateClock();
