@@ -8,10 +8,14 @@ function updateClock(){
     let minutes=new Date().getMinutes();
     let seconds=new Date().getSeconds();
 
+    // console.log(Date())
+
     let ampm1="AM";
     if(hours>=12){
-        ampm1="PM"
+        ampm1="PM";
+
     }
+    hours = (hours % 12) || 12;
 
 
     hour.innerText=hours;
@@ -24,6 +28,4 @@ setTimeout(()=>{
 },1000);
 
 }
-
-
 updateClock();
