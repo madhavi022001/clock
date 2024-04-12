@@ -59,6 +59,8 @@ h2{
     body{
         background-size: cover;
         top: 80px;
+        background-repeat: no-repeat;
+        height: 300px;
         
     }
 
@@ -77,13 +79,14 @@ h2{
    
         font-size: 20px;
         
-        bottom: 10px;
+        top: 130px;
     }
 }
 @media only screen and (min-width:722px) and (max-width:990px){
     body{
         background-size: cover;
         top: 80px;
+        background-repeat: no-repeat;
         
     }
 
