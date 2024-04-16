@@ -56,68 +56,154 @@ h2{
     bottom: 60px;
     margin-bottom: -50px;
 }
-@media only screen and (min-width:0px) and (max-width:720px){
+@media only screen and (min-width:320px) and (max-width:454px){
     body{
         background-size: cover;
         top: 80px;
         background-repeat: no-repeat;
-        height: 170px;
-    
-        
+        height: 770px;
+        overflow-y: hidden;
+        overflow-x: hidden;   
     }
 
     h2{
       
-        margin-top: -10px;
-        margin-left: 120px;
+        margin-top: 70px;
+        margin-left: 40px;
         font-size: 15px;
     }
     .clock{
         display: flex;
-        margin-left: 100px;
+        margin-left: 15px;
 
     }
     .clock span{
         width: 60px;
-        height: 70px;
-        font-size: 20px;  
+        height: 40px;
+        font-size: 15px;  
     }
     
     .clock .text{
-   
+        width: 60px;
+        height: 40px;
         font-size: 10px;
 
     }
      #ampm{
    
-        font-size: 20px;
-        
-        top: 100px;
+        font-size: 10px;
+        width: 40px;
+        height: 30px;
+        top: 90px;
+        margin-left: -10px;
     }
 }
-@media only screen and (min-width:722px) and (max-width:990px){
+@media only screen and (min-width:374px) and (max-width:454px){
     body{
         background-size: cover;
         top: 80px;
         background-repeat: no-repeat;
+        height: 770px;
+        overflow-y: hidden;
+        overflow-x: hidden;
         
     }
 
     .clock span{
         width: 80px;
         height: 90px;
-        font-size: 20px;  
+        font-size: 40px;  
     }
     
     .clock .text{
-   
+        width: 80px;
+        height: 40px;
         font-size: 10px;
 
     }
      #ampm{
    
         font-size: 20px;
+        margin-top: 50px;
+        bottom: 10px;
+    }
+}
+@media only screen and (min-width:425px) and (max-width:454px){
+    body{
+        background-size: cover;
+        top: 80px;
+        background-repeat: no-repeat;
+        height: 770px;
+        overflow-y: hidden;
+        overflow-x: hidden;
         
+    }
+
+    h2{
+      
+        margin-top: 70px;
+        margin-left: 60px;
+        font-size: 15px;
+    }
+    .clock span{
+        width: 80px;
+        height: 90px;
+        margin-left: 12px;
+        font-size: 40px;  
+    }
+    
+    .clock .text{
+        width: 80px;
+        height: 40px;
+        font-size: 10px;
+
+    }
+     #ampm{
+   
+        font-size: 20px;
+        margin-top: 50px;
+        bottom: 10px;
+    }
+}
+@media only screen and (min-width:454px) and (max-width:768px){
+    body{
+        /* background-size: contain; */
+        top: 80px;
+        background-repeat: no-repeat;
+        height: 770px;
+        overflow-y: hidden;
+        overflow-x: hidden;
+        
+    }
+    .clock{
+        display: flex;
+        margin-left: 25px;
+
+    }
+
+    h2{
+      
+        margin-top: 70px;
+        margin-left: 260px;
+        font-size: 30px;
+    }
+    .clock span{
+        width: 100px;
+        height: 100px;
+        font-size: 20px;  
+    }
+    
+    .clock .text{
+        width: 100px;
+        height: 100px;
+        font-size: 10px;
+
+    }
+     #ampm{
+        width: 00px;
+        height: 100px;
+        font-size: 20px;
+        margin-left: 40px;
         bottom: 10px;
     }
 }
